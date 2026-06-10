@@ -27,14 +27,12 @@ class MobilKonvesional extends Kendaraan
         $this->jenisBahanBakar = $jenisBahanBakar;
     }
 
-    // Override method abstract dari class Kendaraan
     public function hitungPajakTahunan()
     {
         return (0.02 * $this->hargaDasar) +
                ($this->kapasitasMesin * 500);
     }
 
-    // Override method abstract dari class Kendaraan
     public function tampilkanSpesifikasi()
     {
         return "
