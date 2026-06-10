@@ -44,6 +44,30 @@
                                         </a>
                                     </li>
                                 </ul>
+                                <ul role="list" class="-mx-2 space-y-1">
+                                    <li>
+                                        <a href="#"
+                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            Dashboard
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul role="list" class="-mx-2 space-y-1">
+                                    <li>
+                                        <a href="#"
+                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            Dashboard
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul role="list" class="-mx-2 space-y-1">
+                                    <li>
+                                        <a href="motor_besar.php"
+                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            Motor Besar
+                                        </a>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
                     </nav>
@@ -76,18 +100,58 @@
                                 </a>
                             </li>
                         </ul>
-                    </li>
+                        <ul role="list" class="-mx-2 space-y-1 mt-3">
+                            <li>
+                                <a href="#"
+                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    </svg>
+                                    Beranda
+                                </a>
+                            </li>
+                        </ul>
+                        <ul role="list" class="-mx-2 space-y-1 mt-3">
+                            <li>
+                                <a href="#"
+                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    </svg>
+                                    Beranda
+                                </a>
+                            </li>
+                        </ul>
+                        <ul role="list" class="-mx-2 space-y-1 mt-3">
+                            <li>
+                                <a href="MotorBesar.php"
+                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
+                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round"
+                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    </svg>
+                                    Motor Besar
+                                </a>
+                            </li>
+                        </ul>
+                </ul>
+                </li>
 
-                    <li class="-mx-6 mt-auto">
-                        <a href="#"
-                            class="flex items-center gap-x-4 px-6 py-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-white/5">
-                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                                alt=""
-                                class="size-8 rounded-full bg-gray-50 outline -outline-offset-1 outline-black/5 dark:bg-gray-800 dark:outline-white/10" />
-                            <span class="sr-only">Your profile</span>
-                            <span aria-hidden="true">Admin SIAKAD</span>
-                        </a>
-                    </li>
+                <li class="-mx-6 mt-auto">
+                    <a href="#"
+                        class="flex items-center gap-x-4 px-6 py-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-white/5">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                            alt=""
+                            class="size-8 rounded-full bg-gray-50 outline -outline-offset-1 outline-black/5 dark:bg-gray-800 dark:outline-white/10" />
+                        <span class="sr-only">Your profile</span>
+                        <span aria-hidden="true">Admin SIAKAD</span>
+                    </a>
+                </li>
                 </ul>
             </nav>
         </div>
