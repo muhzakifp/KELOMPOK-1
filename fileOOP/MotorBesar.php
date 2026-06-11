@@ -6,7 +6,7 @@ class MotorBesar extends Kendaraan {
     private $modeBerkendara;
  
     
-    public function __construct($id = null, $merk = null, $model = null, $tahun = null, $harga = null, $tipeRantai = null, $modeBerkendara = null) {
+    public function __construct($id , $merk , $model , $tahun , $harga , $tipeRantai , $modeBerkendara ) {
         parent::__construct($id, $merk, $model, $tahun, $harga);
         $this->tipeRantai = $tipeRantai;
         $this->modeBerkendara = $modeBerkendara;

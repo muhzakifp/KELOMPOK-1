@@ -11,7 +11,7 @@ class Koneksi{
        $this->koneksi = mysqli_connect($this->localhost,$this->username,$this->pw,$this->database);
 
        if(!$this->koneksi){
-        echo "ERROR - Koneksi terputus ".mysqli_error();
+        echo "ERROR - Koneksi terputus ".mysqli_error($this->koneksi);
        }
        //echo "Koneksi terhubung";
     }

@@ -5,12 +5,13 @@ require_once '../fileOOP/MotorBesar.php';
 
 $database = new SimpanData();
 
+
 $motor = new MotorBesar(
-    "B 4567 K",
+    "D 8888 MOG", 
     "Honda",
     "CBR1000RR",
     2024,
-    550000000,
+    550000,
     "O-Ring",
     "Sport"
 );

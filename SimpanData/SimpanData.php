@@ -41,31 +41,48 @@ class SimpanData extends Koneksi{
         }
         else{echo "Kendaraan tidak valid"; return false;}
 
-       $query = "INSERT INTO kendaraan (id_kendaraan,brand,model,tahun,harga_dasar,kategori_kendaraan) VALUES
-       ('".$kendaraan->aksesIDkendaraan()."','".$kendaraan->aksesBrand()."','".$kendaraan->aksesModel()."','".$kendaraan->aksesTahun()."','".$kendaraan->aksesHarga()."','$tipe')" ;
-        mysqli_query($this->koneksi,$query);
+        // variabel untuk atribut kendaraan
+        $idKendaraan =  $kendaraan->aksesIDkendaraan();
+        $brandKendaraan =  $kendaraan->aksesBrand();
+        $modelKendaraan = $kendaraan->aksesModel();
+        $tahunKendaraan = $kendaraan->aksesTahun();
+        $hargaDasarK = $kendaraan->aksesHarga();
+
+       $queryKendaraan = "INSERT INTO kendaraan (id_kendaraan,brand,model,tahun,harga_dasar,kategori_kendaraan) VALUES
+       ('$idKendaraan','$brandKendaraan','$modelKendaraan','$tahunKendaraan','$hargaDasarK','$tipe')" ;
+        $simpanKendaraan = mysqli_query($this->koneksi,$queryKendaraan);
+
+        if(!$simpanKendaraan){return false;}
 
        if($kendaraan instanceof MobilKonvesional){
+        // variabel untuk atribut mobil konvesional
+        $kapasitasMesin = $kendaraan->aksesKapMesin();
+        $jenisBBM = $kendaraan->aksesjenisbbm();
+
         $query = "INSERT INTO mobil_konvesional (id_kendaraan, kapasitas_mesin, jenis_bbm) VALUES 
-        ('".$kendaraan->aksesIDkendaraan()."','".$kendaraan->aksesKapMesin()."','".$kendaraan->aksesjenisbbm()."')";
+        ('$idKendaraan','$kapasitasMesin','$jenisBBM')";
         return mysqli_query($this->koneksi,$query);
            
        }
        else if($kendaraan instanceof MobilListrik){
+            //variabel untuk atribut mobil listrik
+            $kapasitasBatre = $kendaraan->aksesKapBaterai();
+            $jarakTempuh = $kendaraan->aksesJarak();
+
            $query = "INSERT INTO mobil_listrik (id_kendaraan, kapasitas_baterai, jarak_tempuh) VALUES 
-           ('".$kendaraan->aksesIDkendaraan()."','".$kendaraan->aksesKapBaterai()."','".$kendaraan->aksesJarak()."')";
+           ('$idKendaraan','$kapasitasBatre','$jarakTempuh')";
             return mysqli_query($this->koneksi,$query);
        }
        else if($kendaraan instanceof MotorBesar){
+         //variabel untuk atribut motor besar
+        $tipeRantai = $kendaraan->aksesTipRantai();
+        $modeBerkendara = $kendaraan->aksesModBerkendara();
+
         $query = "INSERT INTO motor_besar (id_kendaraan, tipe_rantai, mode_berkendara) VALUES 
-        ('".$kendaraan->aksesIDkendaraan()."','".$kendaraan->aksesTipRantai()."','".$kendaraan->aksesModBerkendara()."')";
+        ('$idKendaraan','$tipeRantai','$modeBerkendara')";
         return mysqli_query($this->koneksi,$query);
        }
-       else{echo "Kendaraan tidak valid";}
+       else{echo "Kendaraan tidak valid"; return false;}
     }
-
-
-
-
 }
 ?>
