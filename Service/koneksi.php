@@ -16,12 +16,12 @@ class Koneksi{
        echo "Koneksi terhubung";
     }
 
-    public function aksesKoneksi(){
+    public  function aksesKoneksi(){
         return $this->koneksi;
     }
 }
 
 $db = new Koneksi();
-$db->aksesKoneksi();
-
+$konek = $db->aksesKoneksi();
 ?>
+

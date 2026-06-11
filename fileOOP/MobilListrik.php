@@ -1,29 +1,14 @@
 <?php
 
-require 'Kendaraan.php';
+require_once 'Kendaraan.php';
 
 class MobilListrik extends Kendaraan
 {
     private $kapasitasBaterai;
     private $jarakTempuh;
 
-    public function __construct(
-        $id_kendaraan,
-        $brand,
-        $model,
-        $tahun,
-        $hargaDasar,
-        $kapasitasBaterai,
-        $jarakTempuh
-    ){
-        parent::__construct(
-            $id_kendaraan,
-            $brand,
-            $model,
-            $tahun,
-            $hargaDasar
-        );
-
+    public function __construct($id_kendaraan,$brand,$model,$tahun,$hargaDasar,$kapasitasBaterai,$jarakTempuh){
+        parent::__construct($id_kendaraan,$brand,$model,$tahun,$hargaDasar);
         $this->kapasitasBaterai = $kapasitasBaterai;
         $this->jarakTempuh = $jarakTempuh;
     }
@@ -46,6 +31,9 @@ class MobilListrik extends Kendaraan
             'Pajak Tahunan'     => $this->hitungPajakTahunan()
         ];
     }
+
+    public function aksesKapBaterai(){return $this->kapasitasBaterai;}
+    public function aksesJarak(){return $this->aksesjarakTempuh;}
 }
 
 ?>
