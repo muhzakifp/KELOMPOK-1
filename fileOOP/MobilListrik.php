@@ -33,7 +33,7 @@ class MobilListrik extends Kendaraan
     }
 
     public function aksesKapBaterai(){return $this->kapasitasBaterai;}
-    public function aksesJarak(){return $this->aksesjarakTempuh;}
+    public function aksesJarak(){return $this->jarakTempuh;}
 }
 
 ?>

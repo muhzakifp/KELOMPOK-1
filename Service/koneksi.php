@@ -10,10 +10,10 @@ class Koneksi{
     public function __construct(){
        $this->koneksi = mysqli_connect($this->localhost,$this->username,$this->pw,$this->database);
 
-       if(mysqli_error($this->koneksi)){
-        echo "ERROR - Koneksi terputus ".mysqli_error($this->koneksi);
+       if(!$this->koneksi){
+        echo "ERROR - Koneksi terputus ".mysqli_error();
        }
-       echo "Koneksi terhubung";
+       //echo "Koneksi terhubung";
     }
 
     public  function aksesKoneksi(){
@@ -21,7 +21,6 @@ class Koneksi{
     }
 }
 
-$db = new Koneksi();
-$konek = $db->aksesKoneksi();
+
 ?>
 

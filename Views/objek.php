@@ -6,7 +6,7 @@ require_once '../fileOOP/MotorBesar.php';
 $database = new SimpanData();
 
 $motor = new MotorBesar(
-    "MB001",
+    "B 4567 K",
     "Honda",
     "CBR1000RR",
     2024,
@@ -14,8 +14,10 @@ $motor = new MotorBesar(
     "O-Ring",
     "Sport"
 );
+$result = $database->simpanKendaraan($motor);
 
-if($database->simpanKendaraan($motor)){
+
+if($result){
     echo "Data berhasil disimpan";
 }else{
     echo "Data gagal disimpan";

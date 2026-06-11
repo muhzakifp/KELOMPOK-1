@@ -1,5 +1,6 @@
 <?php
 require_once '../Service/koneksi.php';
+require_once '../fileOOP/Kendaraan.php';
 require_once "../fileOOP/MobilKonvesional.php";
 require_once "../fileOOP/MobilListrik.php";
 require_once "../fileOOP/MotorBesar.php";

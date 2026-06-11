@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 09, 2026 at 11:29 AM
+-- Generation Time: Jun 11, 2026 at 10:32 AM
 -- Server version: 8.0.30
 -- PHP Version: 8.1.10
 
@@ -33,7 +33,7 @@ CREATE TABLE `kendaraan` (
   `model` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL,
   `tahun` year NOT NULL,
   `harga_dasar` int NOT NULL,
-  `kategori_kendaraan` enum('Mobil Konvesional','Mobil Listik','Motor Besar') COLLATE utf8mb4_unicode_ci NOT NULL
+  `kategori_kendaraan` enum('Mobil Konvesional','Mobil Listrik','Motor Besar') COLLATE utf8mb4_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
@@ -41,26 +41,26 @@ CREATE TABLE `kendaraan` (
 --
 
 INSERT INTO `kendaraan` (`id_kendaraan`, `brand`, `model`, `tahun`, `harga_dasar`, `kategori_kendaraan`) VALUES
-('B 1001 TS', 'Tesla', 'Model 3 Highland', 2024, 1200000000, 'Mobil Listik'),
+('B 1001 TS', 'Tesla', 'Model 3 Highland', 2024, 1200000000, 'Mobil Listrik'),
 ('B 1234 FRC', 'Honda', 'Civic Type R', 2023, 1400000000, 'Mobil Konvesional'),
-('B 1625 Leaf', 'Nissan', 'Leaf', 2022, 738000000, 'Mobil Listik'),
+('B 1625 Leaf', 'Nissan', 'Leaf', 2022, 738000000, 'Mobil Listrik'),
 ('B 1903 HD', 'Harley-Davidson', 'Sportster S', 2023, 615000000, 'Motor Besar'),
-('B 2026 BMW', 'BMW', 'i4 eDrive40', 2024, 2100000000, 'Mobil Listik'),
+('B 2026 BMW', 'BMW', 'i4 eDrive40', 2024, 2100000000, 'Mobil Listrik'),
 ('B 2048 ZKT', 'Suzuki', 'Ertiga Hybrid', 2023, 270000000, 'Mobil Konvesional'),
-('B 2189 EV', 'Wuling', 'Air EV Long Range', 2023, 275000000, 'Mobil Listik'),
+('B 2189 EV', 'Wuling', 'Air EV Long Range', 2023, 275000000, 'Mobil Listrik'),
 ('B 300 VSP', 'Vespa', 'GTS Super Tech 300', 2024, 165000000, 'Motor Besar'),
 ('B 3333 DUC', 'Ducati', 'Panigale V4', 2024, 840000000, 'Motor Besar'),
 ('B 3810 KLP', 'Mazda', 'CX-5', 2023, 630000000, 'Mobil Konvesional'),
 ('B 6000 ZX', 'Kawasaki', 'Ninja ZX-25R', 2023, 110000000, 'Motor Besar'),
-('B 777 GA', 'Kia', 'EV6 GT-Line', 2023, 1300000000, 'Mobil Listik'),
+('B 777 GA', 'Kia', 'EV6 GT-Line', 2023, 1300000000, 'Mobil Listrik'),
 ('D 1250 GS', 'BMW Motorrad', 'R 1250 GS', 2023, 850000000, 'Motor Besar'),
-('D 404 EL', 'BYD', 'Atto 3', 2024, 515000000, 'Mobil Listik'),
+('D 404 EL', 'BYD', 'Atto 3', 2024, 515000000, 'Mobil Listrik'),
 ('D 4444 RRR', 'Yamaha', 'YZF-R6', 2021, 270000000, 'Motor Besar'),
 ('D 9999 SXX', 'Mitsubishi', 'Pajero Sport', 2022, 580000000, 'Mobil Konvesional'),
 ('F 1123 MR', 'BMW', '330i M Sport', 2024, 1080000000, 'Mobil Konvesional'),
 ('H 8472 YY', 'Daihatsu', 'Rocky Turbo', 2022, 245000000, 'Mobil Konvesional'),
 ('L 1562 AB', 'Toyota', 'Avanza Veloz', 2024, 305000000, 'Mobil Konvesional'),
-('L 333 EV', 'MG', '4 EV', 2023, 430000000, 'Mobil Listik');
+('L 333 EV', 'MG', '4 EV', 2023, 430000000, 'Mobil Listrik');
 
 -- --------------------------------------------------------
 
