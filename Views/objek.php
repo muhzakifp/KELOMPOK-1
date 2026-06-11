@@ -6,15 +6,9 @@ require_once '../fileOOP/MotorBesar.php';
 $database = new SimpanData();
 
 
-$motor = new MotorBesar(
-    "D 8888 MOG", 
-    "Honda",
-    "CBR1000RR",
-    2024,
-    550000,
-    "O-Ring",
-    "Sport"
-);
+$motor = new MotorBesar("AAA 7654 BC", "Vario","Vario123",2020,25000000,"O-Ring","Standart");
+
+
 $result = $database->simpanKendaraan($motor);
 
 

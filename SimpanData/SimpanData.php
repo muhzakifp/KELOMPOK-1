@@ -48,7 +48,7 @@ class SimpanData extends Koneksi{
         $tahunKendaraan = $kendaraan->aksesTahun();
         $hargaDasarK = $kendaraan->aksesHarga();
 
-       $queryKendaraan = "INSERT INTO kendaraan (id_kendaraan,brand,model,tahun,harga_dasar,kategori_kendaraan) VALUES
+       $queryKendaraan = "INSERT IGNORE INTO kendaraan (id_kendaraan,brand,model,tahun,harga_dasar,kategori_kendaraan) VALUES
        ('$idKendaraan','$brandKendaraan','$modelKendaraan','$tahunKendaraan','$hargaDasarK','$tipe')" ;
         $simpanKendaraan = mysqli_query($this->koneksi,$queryKendaraan);
 
@@ -59,7 +59,7 @@ class SimpanData extends Koneksi{
         $kapasitasMesin = $kendaraan->aksesKapMesin();
         $jenisBBM = $kendaraan->aksesjenisbbm();
 
-        $query = "INSERT INTO mobil_konvesional (id_kendaraan, kapasitas_mesin, jenis_bbm) VALUES 
+        $query = "INSERT IGNORE INTO mobil_konvesional (id_kendaraan, kapasitas_mesin, jenis_bbm) VALUES 
         ('$idKendaraan','$kapasitasMesin','$jenisBBM')";
         return mysqli_query($this->koneksi,$query);
            
@@ -69,7 +69,7 @@ class SimpanData extends Koneksi{
             $kapasitasBatre = $kendaraan->aksesKapBaterai();
             $jarakTempuh = $kendaraan->aksesJarak();
 
-           $query = "INSERT INTO mobil_listrik (id_kendaraan, kapasitas_baterai, jarak_tempuh) VALUES 
+           $query = "INSERT IGNORE INTO mobil_listrik (id_kendaraan, kapasitas_baterai, jarak_tempuh) VALUES 
            ('$idKendaraan','$kapasitasBatre','$jarakTempuh')";
             return mysqli_query($this->koneksi,$query);
        }
@@ -78,7 +78,7 @@ class SimpanData extends Koneksi{
         $tipeRantai = $kendaraan->aksesTipRantai();
         $modeBerkendara = $kendaraan->aksesModBerkendara();
 
-        $query = "INSERT INTO motor_besar (id_kendaraan, tipe_rantai, mode_berkendara) VALUES 
+        $query = "INSERT IGNORE INTO motor_besar (id_kendaraan, tipe_rantai, mode_berkendara) VALUES 
         ('$idKendaraan','$tipeRantai','$modeBerkendara')";
         return mysqli_query($this->koneksi,$query);
        }
