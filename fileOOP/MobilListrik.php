@@ -20,16 +20,14 @@ class MobilListrik extends Kendaraan
 
     public function tampilkanSpesifikasi()
     {
-        return [
-            'ID Kendaraan'      => $this->id_kendaraan,
-            'Brand'             => $this->brand,
-            'Model'             => $this->model,
-            'Tahun'             => $this->tahun,
-            'Harga Dasar'       => $this->hargaDasar,
-            'Kapasitas Baterai' => $this->kapasitasBaterai . ' kWh',
-            'Jarak Tempuh'      => $this->jarakTempuh . ' km',
-            'Pajak Tahunan'     => $this->hitungPajakTahunan()
-        ];
+        return 'ID Kendaraan: ' . $this->id_kendaraan . '<br>' .
+            'Brand: ' . $this->brand . '<br>' .
+            'Model: ' . $this->model . '<br>' .
+            'Tahun: ' . $this->tahun . '<br>' .
+            'Harga Dasar: Rp ' . number_format($this->hargaDasar, 0, ',', '.') . '<br>' .
+            'Kapasitas Baterai: ' . $this->kapasitasBaterai . ' kWh<br>' .
+            'Jarak Tempuh: ' . $this->jarakTempuh . ' km<br>' .
+            'Pajak Tahunan: Rp ' . number_format($this->hitungPajakTahunan(), 0, ',', '.');
     }
 
     public function aksesKapBaterai(){return $this->kapasitasBaterai;}

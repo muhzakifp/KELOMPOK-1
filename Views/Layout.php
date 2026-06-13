@@ -46,23 +46,31 @@
                                 </ul>
                                 <ul role="list" class="-mx-2 space-y-1">
                                     <li>
-                                        <a href="#"
+                                        <a href="DaftarKendaraan.php"
                                             class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
-                                            Dashboard
+                                            Daftar Kendaraan
                                         </a>
                                     </li>
                                 </ul>
                                 <ul role="list" class="-mx-2 space-y-1">
                                     <li>
-                                        <a href="#"
+                                        <a href="MobilKonvesional.php"
                                             class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
-                                            Dashboard
+                                           Mobil Konvesional
                                         </a>
                                     </li>
                                 </ul>
                                 <ul role="list" class="-mx-2 space-y-1">
                                     <li>
-                                        <a href="motor_besar.php"
+                                        <a href="MobilListrik.php"
+                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                           Mobil Listrik
+                                        </a>
+                                    </li>
+                                </ul>
+                                <ul role="list" class="-mx-2 space-y-1">
+                                    <li>
+                                        <a href="MotorBesar.php"
                                             class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
                                             Motor Besar
                                         </a>
@@ -128,7 +136,7 @@
                         </ul>
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
-                                <a href="#"
+                                <a href="MobilListrik.php"
                                     class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
                                     <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
                                         viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">

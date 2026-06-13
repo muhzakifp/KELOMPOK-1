@@ -84,5 +84,16 @@ class SimpanData extends Koneksi{
        }
        else{echo "Kendaraan tidak valid"; return false;}
     }
+
+    public function hitungTotalKendaraan($tipe = null){
+       if ($tipe === null){
+        $query = "SELECT COUNT(id_kendaraan) AS total_kendaraan FROM kendaraan";
+       }else{
+        $query = "SELECT COUNT(id_kendaraan) AS total_kendaraan FROM kendaraan WHERE kategori_kendaraan= '$tipe'";
+       }
+       $result =  mysqli_query($this->koneksi, $query);
+       $total = mysqli_fetch_assoc($result);
+       return $total['total_kendaraan'];
+    }
 }
 ?>
