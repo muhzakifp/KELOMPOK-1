@@ -26,12 +26,10 @@
                     </button>
                 </div>
 
-                <div class="flex grow flex-col gap-y-4 overflow-y-auto bg-white px-5 pb-2 dark:bg-gray-900">
+                <div class="flex grow flex-col gap-y-4 overflow-y-auto bg-[#1e2135] px-5 pb-2">
                     <div class="flex h-14 shrink-0 items-center">
-                        <img src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="SIAKAD"
-                            class="h-7 w-auto dark:hidden" />
-                        <img src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="SIAKAD"
-                            class="h-7 w-auto hidden dark:block" />
+                        <img src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=300" alt="SIAKAD"
+                            class="h-7 w-auto" />
                     </div>
                     <nav class="flex flex-1 flex-col">
                         <ul role="list" class="flex flex-1 flex-col gap-y-6">
@@ -39,39 +37,55 @@
                                 <ul role="list" class="-mx-2 space-y-1">
                                     <li>
                                         <a href="dashboard.php"
-                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                            <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+                                            </svg>
                                             Dashboard
                                         </a>
                                     </li>
                                 </ul>
-                                <ul role="list" class="-mx-2 space-y-1">
+                                <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
                                         <a href="DaftarKendaraan.php"
-                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                            <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                                            </svg>
                                             Daftar Kendaraan
                                         </a>
                                     </li>
                                 </ul>
-                                <ul role="list" class="-mx-2 space-y-1">
+                                <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
                                         <a href="MobilKonvesional.php"
-                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                           <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.866 8.21 8.21 0 003 2.48z" />
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
+                                            </svg>
                                            Mobil Konvesional
                                         </a>
                                     </li>
                                 </ul>
-                                <ul role="list" class="-mx-2 space-y-1">
+                                <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
                                         <a href="MobilListrik.php"
-                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                           <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                                            </svg>
                                            Mobil Listrik
                                         </a>
                                     </li>
                                 </ul>
-                                <ul role="list" class="-mx-2 space-y-1">
+                                <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
                                         <a href="MotorBesar.php"
-                                            class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
+                                            class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                            <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.79l.867-1.221m7.264-10.231l.867-1.221m-4.522 10.982l.346-1.458m2.351-12.048l.346-1.458" />
+                                            </svg>
                                             Motor Besar
                                         </a>
                                     </li>
@@ -84,12 +98,12 @@
         </div>
     </div>
 
-    <div class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-64 lg:flex-col dark:bg-gray-900">
+    <div class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-64 lg:flex-col">
         <div
-            class="flex grow flex-col gap-y-4 overflow-y-auto border-r border-gray-200 bg-white px-5 dark:border-white/10 dark:bg-black/10">
+            class="flex grow flex-col gap-y-4 overflow-y-auto border-r border-[#1e2135] bg-[#1e2135] px-5 shadow-lg">
 
             <div class="flex h-14 shrink-0 items-center">
-                <h1 class="text-lg font-bold text-indigo-600 dark:text-white">SIAKAD - OOP</h1>
+                <h1 class="text-lg font-bold text-white">SIAKAD - OOP</h1>
             </div>
 
             <nav class="flex flex-1 flex-col">
@@ -98,11 +112,9 @@
                         <ul role="list" class="-mx-2 space-y-1">
                             <li>
                                 <a href="dashboard.php"
-                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
-                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                    <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
                                     </svg>
                                     Dashboard
                                 </a>
@@ -111,11 +123,9 @@
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
                                 <a href="DaftarKendaraan.php"
-                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
-                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                    <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                                     </svg>
                                    Daftar kendaraan
                                 </a>
@@ -124,11 +134,10 @@
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
                                 <a href="MobilKonvesional.php"
-                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
-                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                    <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.866 8.21 8.21 0 003 2.48z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
                                     </svg>
                                    Mobil Konvesional
                                 </a>
@@ -137,11 +146,9 @@
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
                                 <a href="MobilListrik.php"
-                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
-                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                    <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                                     </svg>
                                     Mobil listrik
                                 </a>
@@ -150,11 +157,9 @@
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
                                 <a href="MotorBesar.php"
-                                    class="group flex gap-x-3 rounded-md bg-gray-50 p-2 text-xs/5 font-semibold text-indigo-600 dark:bg-white/5 dark:text-white">
-                                    <svg class="size-5 shrink-0 text-indigo-600 dark:text-white" fill="none"
-                                        viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                        <path stroke-linecap="round" stroke-linejoin="round"
-                                            d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                                    class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
+                                    <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12a7.5 7.5 0 0015 0m-15 0a7.5 7.5 0 1115 0m-15 0H3m16.5 0H21m-1.5 0H12m-8.457 3.077l1.41-.513m14.095-5.13l1.41-.513M5.106 17.785l1.15-.964m11.49-9.642l1.149-.964M7.501 19.79l.867-1.221m7.264-10.231l.867-1.221m-4.522 10.982l.346-1.458m2.351-12.048l.346-1.458" />
                                     </svg>
                                     Motor Besar
                                 </a>
@@ -165,10 +170,10 @@
 
                 <li class="-mx-6 mt-auto">
                     <a href="#"
-                        class="flex items-center gap-x-4 px-6 py-3 text-sm/6 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-white/5">
+                        class="flex items-center gap-x-4 px-6 py-3 text-sm/6 font-semibold text-white hover:bg-white/10">
                         <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                             alt=""
-                            class="size-8 rounded-full bg-gray-50 outline -outline-offset-1 outline-black/5 dark:bg-gray-800 dark:outline-white/10" />
+                            class="size-8 rounded-full bg-gray-50 outline -outline-offset-1 outline-black/5" />
                         <span class="sr-only">Your profile</span>
                         <span aria-hidden="true">Admin SIAKAD</span>
                     </a>
@@ -211,7 +216,7 @@
         </main>
 
         <footer class="text-center py-6 text-gray-500 dark:text-gray-400 text-sm">
-            <p>&copy; 2026 Sistem Informasi Akademik.</p>
+            <p>&copy; 2026 Showroom Kendaraan.</p>
         </footer>
     </div>
 
