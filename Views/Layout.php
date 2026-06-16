@@ -49,7 +49,7 @@
                                 </ul>
                                 <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
-                                        <a href="DaftarKendaraan.php"
+                                        <a href="tabel_DaftarKendaraan.php"
                                             class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                             <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor">
@@ -62,7 +62,7 @@
                                 </ul>
                                 <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
-                                        <a href="MobilKonvesional.php"
+                                        <a href="tabel_MobilKonvesional.php"
                                             class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                             <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor">
@@ -77,7 +77,7 @@
                                 </ul>
                                 <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
-                                        <a href="MobilListrik.php"
+                                        <a href="tabel_MobilListrik.php"
                                             class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                             <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor">
@@ -90,7 +90,7 @@
                                 </ul>
                                 <ul role="list" class="-mx-2 space-y-1 mt-3">
                                     <li>
-                                        <a href="MotorBesar.php"
+                                        <a href="tabel_MotorBesar.php"
                                             class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                             <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                                 stroke-width="1.5" stroke="currentColor">
@@ -134,7 +134,7 @@
                         </ul>
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
-                                <a href="DaftarKendaraan.php"
+                                <a href="tabel_DaftarKendaraan.php"
                                     class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                     <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor">
@@ -147,7 +147,7 @@
                         </ul>
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
-                                <a href="MobilKonvesional.php"
+                                <a href="tabel_MobilKonvesional.php"
                                     class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                     <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor">
@@ -162,7 +162,7 @@
                         </ul>
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
-                                <a href="MobilListrik.php"
+                                <a href="tabel_MobilListrik.php"
                                     class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                     <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor">
@@ -175,7 +175,7 @@
                         </ul>
                         <ul role="list" class="-mx-2 space-y-1 mt-3">
                             <li>
-                                <a href="MotorBesar.php"
+                                <a href="tabel_MotorBesar.php"
                                     class="group flex gap-x-3 rounded-md bg-white/5 hover:bg-white/10 p-2 text-xs/5 font-semibold text-white">
                                     <svg class="size-5 shrink-0 text-white" fill="none" viewBox="0 0 24 24"
                                         stroke-width="1.5" stroke="currentColor">
@@ -186,18 +186,17 @@
                                 </a>
                             </li>
                         </ul>
-                </ul>
-                </li>
+                    </li>
 
-                <li class="-mx-6 mt-auto">
-                    <a href="#"
-                        class="flex items-center gap-x-4 px-6 py-3 text-sm/6 font-semibold text-white hover:bg-white/10">
-                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-                            alt="" class="size-8 rounded-full bg-gray-50 outline -outline-offset-1 outline-black/5" />
-                        <span class="sr-only">Your profile</span>
-                        <span aria-hidden="true">Admin</span>
-                    </a>
-                </li>
+                    <li class="-mx-6 mt-auto">
+                        <button id="open-profile-modal" type="button"
+                            class="w-full flex items-center gap-x-4 px-6 py-3 text-sm/6 font-semibold text-white hover:bg-white/10 transition text-left focus:outline-none">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                                alt="" class="size-8 rounded-full bg-gray-50 outline -outline-offset-1 outline-black/5" />
+                            <span class="sr-only">Your profile</span>
+                            <span aria-hidden="true">Kelompok 1 - PBO</span>
+                        </button>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -216,11 +215,11 @@
         <div class="flex-1 text-sm/6 font-semibold text-gray-900 dark:text-white">
             <?php echo isset($title) ? $title : 'Dashboard'; ?>
         </div>
-        <a href="#">
+        <button id="open-profile-modal-mobile" type="button" class="focus:outline-none">
             <span class="sr-only">Your profile</span>
             <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                 alt="" class="size-8 rounded-full bg-gray-50 dark:bg-gray-800" />
-        </a>
+        </button>
     </div>
 
     <div class="lg:pl-72">
@@ -240,10 +239,69 @@
         </footer>
     </div>
 
+    <div id="profile-modal" class="relative z-50 hidden" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-gray-900/60 backdrop-blur-sm transition-opacity"></div>
+
+        <div class="fixed inset-0 z-50 w-screen overflow-y-auto">
+            <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                
+                <div class="relative transform overflow-hidden rounded-xl bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
+                    
+                    <div class="bg-gray-50 dark:bg-gray-900/50 px-6 py-4 border-b border-gray-200 dark:border-gray-700 flex items-center justify-between">
+                        <div class="flex items-center gap-x-2">
+                            <span class="flex h-2.5 w-2.5 rounded-full bg-indigo-500"></span>
+                            <h3 class="text-base font-semibold leading-6 text-gray-900 dark:text-white">Anggota Kelompok 1</h3>
+                        </div>
+                        <button id="close-modal-x" type="button" class="rounded-md text-gray-400 hover:text-gray-500 focus:outline-none">
+                            <svg class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="px-6 py-4 max-h-[60vh] overflow-y-auto divide-y divide-gray-100 dark:divide-gray-700">
+                        <div class="py-3 flex justify-between items-center first:pt-0 last:pb-0">
+                            <span class="text-sm font-medium text-gray-900 dark:text-white">Adit Kurniadi</span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 font-mono">250215062</span>
+                        </div>
+                        <div class="py-3 flex justify-between items-center first:pt-0 last:pb-0">
+                            <span class="text-sm font-medium text-gray-900 dark:text-white">Faiza Ailani Fadhila</span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 font-mono">250215041</span>
+                        </div>
+                        <div class="py-3 flex justify-between items-center first:pt-0 last:pb-0">
+                            <span class="text-sm font-medium text-gray-900 dark:text-white">Ilham Ali Rahmatulloh</span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 font-mono">250315046</span>
+                        </div>
+                        <div class="py-3 flex justify-between items-center first:pt-0 last:pb-0">
+                            <span class="text-sm font-medium text-gray-900 dark:text-white">Mirza Wildan Musyarif</span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 font-mono">250315052</span>
+                        </div>
+                        <div class="py-3 flex justify-between items-center first:pt-0 last:pb-0">
+                            <span class="text-sm font-medium text-gray-900 dark:text-white">Muhammad Zaki Fadhila Putra</span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 font-mono">250315056</span>
+                        </div>
+                        <div class="py-3 flex justify-between items-center first:pt-0 last:pb-0">
+                            <span class="text-sm font-medium text-gray-900 dark:text-white">Wanda Tiara Levina</span>
+                            <span class="text-sm text-gray-500 dark:text-gray-400 font-mono">250215063</span>
+                        </div>
+                    </div>
+
+                    <div class="bg-gray-50 dark:bg-gray-900/50 px-6 py-3 border-t border-gray-200 dark:border-gray-700 flex justify-end">
+                        <button id="close-modal-btn" type="button" 
+                            class="rounded-md bg-indigo-600 px-3.5 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                            Tutup
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
-
     <script>
+    // Logic Sidebar Mobile
     const mobileSidebar = document.getElementById('mobile-sidebar');
     const openSidebarBtn = document.getElementById('open-sidebar-btn');
     const closeSidebarBtn = document.getElementById('close-sidebar-btn');
@@ -259,6 +317,36 @@
             mobileSidebar.classList.add('hidden');
         });
     }
+
+    // Logic Pop-up Modal Profil Kelompok
+    const profileModal = document.getElementById('profile-modal');
+    const openModalBtn = document.getElementById('open-profile-modal');
+    const openModalBtnMobile = document.getElementById('open-profile-modal-mobile');
+    const closeModalX = document.getElementById('close-modal-x');
+    const closeModalBtn = document.getElementById('close-modal-btn');
+
+    function showModal() {
+        profileModal.classList.remove('hidden');
+    }
+
+    function hideModal() {
+        profileModal.classList.add('hidden');
+    }
+
+    // Event Listeners untuk membuka modal (Desktop & Mobile)
+    if (openModalBtn) openModalBtn.addEventListener('click', showModal);
+    if (openModalBtnMobile) openModalBtnMobile.addEventListener('click', showModal);
+
+    // Event Listeners untuk menutup modal
+    if (closeModalX) closeModalX.addEventListener('click', hideModal);
+    if (closeModalBtn) closeModalBtn.addEventListener('click', hideModal);
+
+    // Menutup modal jika area di luar kotak modal diklik
+    window.addEventListener('click', function(e) {
+        if (e.target === profileModal.querySelector('.w-screen')) {
+            hideModal();
+        }
+    });
     </script>
 </body>
 

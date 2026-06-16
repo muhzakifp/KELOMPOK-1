@@ -4,6 +4,8 @@ require_once '../SimpanData/SimpanData.php';
 require_once '../fileOOP/MobilKonvesional.php';
 require_once '../fileOOP/MobilListrik.php';
 require_once '../fileOOP/MotorBesar.php';
+require_once 'objek.php';
+
 
 // Judul halaman
 $title = "Showroom Kendaraan - Dashboard";
