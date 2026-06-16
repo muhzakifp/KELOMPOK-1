@@ -16,5 +16,3 @@ $dataKendaraan = [$motor,$mobilK];
 foreach($dataKendaraan as $data){
     $database->simpanKendaraan($data);
 }
-
-
