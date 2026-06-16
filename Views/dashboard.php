@@ -141,7 +141,7 @@ ob_start();
 <div class="bg-white dark:bg-gray-800 shadow-sm border border-gray-200 dark:border-gray-700 rounded-2xl p-6">
     <div class="flex items-center justify-between mb-5">
         <h5 class="text-lg font-bold text-gray-900 dark:text-white">Daftar Kendaraan Terbaru</h5>
-        <a href="DaftarKendaraan.php" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Lihat Semua</a>
+        <a href="tabel_DaftarKendaraan.php" class="text-sm font-medium text-blue-600 hover:underline dark:text-blue-500">Lihat Semua</a>
     </div>
 
     <div class="relative overflow-x-auto">
